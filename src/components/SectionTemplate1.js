@@ -31,7 +31,7 @@ const SectionTemplate1 = ({
       <Container>
         <Row>
           <Col lg={6} md={6} xs={12} className="mt-auto mb-auto">
-            <img style={{ width: "100%" }} src={imgSrc} />
+            <img style={{ width: "100%" }} src={imgSrc} alt="img" />
           </Col>
           <Col lg={6} md={6} xs={12} className="mt-auto mb-auto">
             <Container>

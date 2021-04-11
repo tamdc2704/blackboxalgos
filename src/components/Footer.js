@@ -7,7 +7,7 @@ const Footer = () => (
       backgroundColor: "#242626",
     }}
   >
-    <div className="wrapper" className="fontSize: 18">
+    <div className="wrapper">
       <span style={{ color: "#757575" }}>FIND US AT &nbsp;</span>
       <a
         href="mailto:BLACKBOXALGOS@PROTONMAIL.COM"

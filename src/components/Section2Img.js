@@ -57,7 +57,6 @@ const ItemTemplate = ({ bgImg, title, content, btnText }) => {
           inset: 0,
           display: "table-cell",
           transition: "all ease-in-out .25s",
-          display: "table-cell",
           height: "100%",
           width: "100%",
         }}
