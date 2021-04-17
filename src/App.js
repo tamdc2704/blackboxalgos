@@ -4,7 +4,6 @@ import Section from "./components/SectionTemplate1";
 import SectionListItem from "./components/SectionListItem";
 import Footer from "./components/Footer";
 import "./App.css";
-import Section2Img from "./components/Section2Img";
 import ExchangeSupported from "./components/ExchangeSupported";
 import Pricing from "./components/Pricing";
 

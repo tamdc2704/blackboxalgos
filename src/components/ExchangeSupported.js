@@ -16,18 +16,6 @@ const fadeInUp = keyframes`
   }
 `;
 
-const moveInLeft = keyframes`
-    0% {
-    opacity: 0;
-    transform: translateX(-10rem);
-    }
-
-    100% {
-    opacity: 1;
-    transform: translate(0);
-    }
-`;
-
 const Wrapper = styled.div`
   margin: 70px 0;
   text-align: center;

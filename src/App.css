@@ -64,15 +64,10 @@ button.navbar-toggler {
   height: 100vh;
   background-position: center center;
   background-attachment: scroll;
-  /* background-image: url('https://www.cornelisnetworks.com/wp-content/uploads/2020/12/artificial-intelligence.jpg'); */
-  /* background-image: url('https://images.idgesg.net/images/article/2017/10/wireless_network_internet_of_things_iot_thinkstock_853701554_3x2-100740688-large.jpg'); */
-  /* background-image: url('https://analyticsinsight.b-cdn.net/wp-content/uploads/2021/03/Artificial-Intelligence-10.jpg'); */
-  /* background-image: url('https://lightfiresolutions.com/wp-content/uploads/2019/10/Artificial-Intelligence-in-Digital-Marketing.jpg'); */
   background-image: url('https://singularityhub.com/wp-content/uploads/2019/04/3D-black-box-artificial-intelligence-interviews-shutterstock-489987685.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   transform: rotateY(180deg);
-  /* margin-top: -15vh; */
 }
 
 .circle {
@@ -129,14 +124,14 @@ button.navbar-toggler {
 }
 
 .section3 {
-  padding-top: 150px;
+  padding-top: 130px;
   padding-bottom: 135px;
 }
 
 .section3 .desc .text {
   font-size: 22px;
   line-height: 1.5;
-  max-width: 560px;
+  max-width: 600px;
 }
 
 .section5 .wrapper:hover .overlay  {
