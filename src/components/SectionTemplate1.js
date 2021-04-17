@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 const SectionTemplate1 = ({
+  id,
   className,
   bgColor,
   color,
@@ -26,7 +27,13 @@ const SectionTemplate1 = ({
   return (
     <div
       className={className}
-      style={{ paddingTop: 105, paddingBottom: 90, backgroundColor: bgColor }}
+      id={id}
+      style={{
+        paddingTop: 105,
+        paddingBottom: 90,
+        backgroundColor: bgColor,
+        scrollBhavior: "smooth",
+      }}
     >
       <Container>
         <Row>

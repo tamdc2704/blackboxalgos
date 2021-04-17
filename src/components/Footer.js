@@ -1,5 +1,6 @@
 const Footer = () => (
   <div
+    id="contact"
     className="footer"
     style={{
       paddingTop: 75,

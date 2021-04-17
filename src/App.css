@@ -1,16 +1,27 @@
-.App {
-  text-align: center;
+html {
+  scroll-behavior: smooth;
 }
 
-/* .navbar {
-  border: 1px solid black;
-  height: 15vh;
-  display: flex;
-  position: absolute;
-  align-items: center;
-  width: 100%;
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lexend Deca';
+}
+
+.App {
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+.navbar {
   z-index: 1;
-} */
+  position: absolute;
+  background-color: inherit !important;
+  width: 100%;
+  padding: 1rem 2rem;
+}
+
+button.navbar-toggler {
+  background-color: #a6a6a6;
+}
 
 .brand {
   color: #fff;
@@ -53,10 +64,15 @@
   height: 100vh;
   background-position: center center;
   background-attachment: scroll;
-  background-image: url('http://img1.wsimg.com/isteam/stock/12177/:/fx-gs');
+  /* background-image: url('https://www.cornelisnetworks.com/wp-content/uploads/2020/12/artificial-intelligence.jpg'); */
+  /* background-image: url('https://images.idgesg.net/images/article/2017/10/wireless_network_internet_of_things_iot_thinkstock_853701554_3x2-100740688-large.jpg'); */
+  /* background-image: url('https://analyticsinsight.b-cdn.net/wp-content/uploads/2021/03/Artificial-Intelligence-10.jpg'); */
+  /* background-image: url('https://lightfiresolutions.com/wp-content/uploads/2019/10/Artificial-Intelligence-in-Digital-Marketing.jpg'); */
+  background-image: url('https://singularityhub.com/wp-content/uploads/2019/04/3D-black-box-artificial-intelligence-interviews-shutterstock-489987685.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: -15vh;
+  transform: rotateY(180deg);
+  /* margin-top: -15vh; */
 }
 
 .circle {
@@ -103,6 +119,7 @@
 }
 
 .section2 .text {
+  font-family: "Lexend Deca";
   font-weight: 400;
   color: #d1d1d1;
   line-height: 1.65;

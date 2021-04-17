@@ -1,5 +1,14 @@
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import styled from "styled-components";
+
+const NavStyle = styled.div`
+  a {
+    font-family: "Lexend Deca";
+    font-size: 18px;
+    padding: auto 1rem;
+  }
+`;
 
 const Header = () => (
   <Navbar bg="dark" expand="lg" style={{ zIndex: 1 }}>
@@ -18,14 +27,20 @@ const Header = () => (
       id="basic-navbar-nav"
       style={{ justifyContent: "flex-end" }}
     >
-      <Nav>
-        <Nav.Link href="#about" style={{ color: "#fff" }}>
-          About
+      <NavStyle className="navbar-nav">
+        <Nav.Link href="#product" style={{ color: "#fff" }}>
+          Product
         </Nav.Link>
-        <Nav.Link href="#faq" style={{ color: "#fff" }}>
-          FAQ
+        <Nav.Link href="#feature" style={{ color: "#fff" }}>
+          Feature
         </Nav.Link>
-      </Nav>
+        <Nav.Link href="#pricing" style={{ color: "#fff" }}>
+          Pricing
+        </Nav.Link>
+        <Nav.Link href="#contact" style={{ color: "#fff" }}>
+          Contact
+        </Nav.Link>
+      </NavStyle>
     </Navbar.Collapse>
   </Navbar>
 );
